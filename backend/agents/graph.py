@@ -27,5 +27,5 @@ workflow.add_edge("investigador", "redactor")
 # - Cuando el redactor termina, el proceso finaliza (END)
 workflow.add_edge("redactor", END)
 
-# 5. Compilamos (ensamblamos) el motor final
+# - Compilamos (ensamblamos) el motor final
 orquestador = workflow.compile()
