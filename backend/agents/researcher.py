@@ -3,7 +3,7 @@ from tavily import TavilyClient
 from backend.core.config import TAVILY_API_KEY
 from backend.agents.state import AgentState
 
-# 1. Inicializamos las herramientas
+# Inicializamos las herramientas
 tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
 
 # Usamos gemini-1.5-flash porque rápido y barato/gratis
